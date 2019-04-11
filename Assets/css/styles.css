@@ -9,9 +9,12 @@ body{
   background-color: #f4f5f6;
 }
 .main-container{
-  width: 80%;
+  width: 85%;
   background-color: #fff;
   margin: auto;
+}
+img{
+  width: 100%;
 }
 .page-header{
   background-color: #f72210;
@@ -41,10 +44,92 @@ body{
   color: #aaa;
   padding-top: 10px;
 }
-.form-control{
+.row input{
   border: 0px;
 }
+.text-right.header-item {
+  padding: 40px 20px 0px 20px;
+}
+.text-right.header-item button{
+  color: red;
+  font-weight: bold;
+  border: 0px;
+  background-color: #fff;
+}
+.text-right.header-item i{
+  color: red;
+}
+.text-left.header-item{
+  padding: 40px 20px 0px 20px;
+}
 .container{
+  margin-top: 15px;
+}
+.container p{
+  color: black;
+}
+.text
+#rocks{
   width: 100%;
-  background-color: aqua;
+}
+.text-muted{
+  font-size: 18px;
+  font-weight: bold;
+}
+.news h3{
+  margin-top: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 24px;
+  color: #000;
+}
+.news a{
+  text-decoration-color: #f72210;
+}
+.news p{
+  font-weight: 400;
+}
+ul.right-bar-ul{
+  padding-left: 0px;
+}
+.right-bar-ul li{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 0.5px solid rgb(184, 181, 181);
+}
+.right-bar-ul img{
+  width: 60px;
+  height: 60px;
+}
+.right-bar-ul a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.info{
+  padding: 0px 5px 0px 15px;
+  line-height: 1.4em;
+}
+.aut{
+  display: flex;
+  flex-direction: row;
+}
+.aut p{
+  font-weight: 400;
+  color: #555;
+}
+.aut a{
+  color: #555;
+}
+#abs{
+  width: 100%;
+}
+.middle{
+  font-family: "Roboto-condensed", sans-serif;
+}
+.par-mid{
+  font-weight: 400;
 }

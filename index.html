@@ -7,75 +7,226 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>The Next Web</title>
+    <title>Newsweek</title>
     <link rel="stylesheet" type="text/css" href="Assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="Assets/css/styles.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <title>Newsweek</title>
   </head>
   <body>
-    <div class="main-container">
+  <div class="main-container">
     <div class="page-header">
       <div class="row">
-          <div class="col-lg-4 col-md-2 col-sm-2 col-xs-2 text-left header-item">
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-left header-item">
               <p>Wed, Apr 10, 2019</p>
           </div>
-          <div class="col-lg-4 col-md-8 col-sm-8 col-xs-8 text-center">
-              <img src="Assets/Media/logo.png" alt="NW-logo">
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
+              <img src="Assets/Media/logo.png" class="img-fluid max-width: 100%" alt="logo">
           </div>
-          <div class="col-lg-4 col-md-2 col-sm-2 col-xs-2 text-right header-item">
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-right header-item">
               <p>SIGN IN  <button>SUBSCRIBE <i class="fas fa-chevron-right"></i></button></p>
           </div>
-      </div><!--end of header-->
+      </div><!--end of row-->
+      <div class=".collapse.navbar-collapse">
         <ul class="nav nav-pills nav-fill">
-            <li class="nav-item">
-              <a class="nav-link" href="#">U.S.</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">World</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Business</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Tech & Science</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Culture</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Sports</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Health</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Opinion</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Ndelible</a>
-            </li> 
-            <li class="row">
-              <input type="text" class="form-control col-md-3" placeholder="Search" name="srch-term" id="srch-term">
-              <i class="fas fa-search col-md-9"></i>
-            </li> 
-          </ul>
-  </div><!--end of page-header-->
-      <div class="container">
-        <div class="row">
-          <div class="col-sm">
-            One of three columns
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.newsweek.com/us">U.S.</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.newsweek.com/world">World</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.newsweek.com/business">Business</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="https://www.newsweek.com/tech-science">Tech & Science</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.newsweek.com/culture">Culture</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.newsweek.com/sports">Sports</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.newsweek.com/health">Health</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.newsweek.com/opinion">Opinion</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.newsweek.com/ndelible">Ndelible</a>
+          </li> 
+          <li class="row">
+            <input type="text" class="form-control col-md-3" placeholder="Search" name="srch-term" id="srch-term">
+            <i class="fas fa-search col-md-9"></i>
+          </li> 
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.newsweek.com/ndelible"></a>
+          </li> 
+        </ul>
+      </div> <!--end of navbar-->
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4 col-md-4 left-col">
+          <div class="news">
+              <h2  class="text-muted ">FEATURED STORIES</h2>
+              <img src="Assets/Media/rock1.jpg" alt="rock" >
+              <a href="#"><h3>Main Title of the Day</h3></a>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At neque dolor veritatis, hic facere necessitatibus ut debitis eaque autem sunt</p>
+              <hr><p class="font-weight-bold">Obcaecati atque voluptatem sed blanditiis facere animi.</p><hr>
           </div>
-          <div class="col-sm">
-            One of three columns
+          <div class="news">
+            <img src="Assets/Media/rock2.jpg" alt="rock">
+            <a href="#"><h3>Title Number 1</h3></a>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At neque dolor veritatis, hic facere necessitatibus ut debitis eaque autem sunt</p>
+            <hr><p class="font-weight-bold">Obcaecati atque voluptatem sed blanditiis facere animi.</p><hr>
           </div>
-          <div class="col-sm">
-            One of three columns
+          <div class="news">
+            <img src="Assets/Media/rock1.jpg" alt="rock">
+            <a href="#"><h3>Title Number 2</h3></a>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At neque dolor veritatis, hic facere necessitatibus ut debitis eaque autem sunt</p>
+            <hr><p class="font-weight-bold">Obcaecati atque voluptatem sed blanditiis facere animi.</p><hr>
           </div>
+          <div class="news">
+            <a href="#"><h3>Title Number 3</h3></a>
+            <img src="Assets/Media/rock2.jpg" alt="rock">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At neque dolor veritatis, hic facere necessitatibus ut debitis eaque autem sunt</p>
+            <hr><p class="font-weight-bold">Obcaecati atque voluptatem sed blanditiis facere animi.</p><hr>
+          </div>
+          <div class="news">
+            <img src="Assets/Media/rock1.jpg" alt="rock">
+            <a href="#"><h3>Title Number 4</h3></a>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At neque dolor veritatis, hic facere necessitatibus ut debitis eaque autem sunt</p>
+            <hr><p class="font-weight-bold">Obcaecati atque voluptatem sed blanditiis facere animi.</p><hr>
+          </div>
+          <div class="news">
+            <img src="Assets/Media/rock2.jpg" alt="rock">
+            <a href="#"><h3>Title Number 5</h3></a>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At neque dolor veritatis, hic facere necessitatibus ut debitis eaque autem sunt</p>
+            <hr><p class="font-weight-bold">Obcaecati atque voluptatem sed blanditiis facere animi.</p><hr>
+          </div>
+        </div><!--end of left-bar-->
+        <div class="col-sm-4 col-md-4 mid-col">
+          <h2 class="text-muted ">TOP STORY</h2>
+          <img src="Assets/Media/abs1.jpg" alt="abs" id="abs">
+          <h3 class="middle">News Title</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores quo voluptas error facere tempora sit eos commodi nihil facilis nam alias esse accusamus illo harum, nemo iure beatae, similique sed?</p>
+          <div class="news">
+              <h2  class="text-muted ">FEATURED STORIES</h2>
+              <img src="Assets/Media/rock1.jpg" alt="rock">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At neque dolor veritatis, hic facere necessitatibus ut debitis eaque autem sunt</p>
+          </div>
+          <div class="news">
+            <h2  class="text-muted ">FEATURED STORIES</h2>
+            <img src="Assets/Media/rock1.jpg" alt="rock">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At neque dolor veritatis, hic facere necessitatibus ut debitis eaque autem sunt</p>
+          </div>
+          <div class="news">
+            <h2  class="text-muted ">FEATURED STORIES</h2>
+            <img src="Assets/Media/rock1.jpg" alt="rock">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At neque dolor veritatis, hic facere necessitatibus ut debitis eaque autem sunt</p>
+          </div>
+          <div class="news">
+            <h2  class="text-muted ">FEATURED STORIES</h2>
+            <img src="Assets/Media/rock1.jpg" alt="rock">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At neque dolor veritatis, hic facere necessitatibus ut debitis eaque autem sunt</p>
+          </div>
+          <div class="news">
+            <h2  class="text-muted ">FEATURED STORIES</h2>
+            <img src="Assets/Media/rock1.jpg" alt="rock">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At neque dolor veritatis, hic facere necessitatibus ut debitis eaque autem sunt</p>
+          </div>
+          <div class="news">
+            <h2  class="text-muted ">FEATURED STORIES</h2>
+            <img src="Assets/Media/rock1.jpg" alt="rock">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At neque dolor veritatis, hic facere necessitatibus ut debitis eaque autem sunt</p>
+          </div>
+        </div><!--end of middle-col-->
+        <div class="col-sm-4 col-md-4 right-col">
+          <div class="block-title"><h2 class="text-muted ">OPINION</h2></div>
+            <ul class="right-bar-ul">
+              <li class="flex-xs">
+                <div class="headshot">
+                  <a href="#">
+                  <img class="rounded-circle" src="Assets/Media/default2.png" alt="person1"></a>
+                </div>
+                <div class="info">
+                  <a href="#">Some Longer Text with Updated Info at All Times</a>
+                  <div class="flex-xs aut">
+                    <p>BY</p>
+                    <a href="#">AUTHOR'S NAME</a>
+                </div>
+              </li>
+              <li class="flex-xs pt-3">
+                <div class="headshot">
+                  <a href="#">
+                  <img class="rounded-circle" src="Assets/Media/default2.png" alt="person2"></a>
+                </div>
+                <div class="info">
+                  <a href="#">Some Longer Text with Updated Info at All Times</a>
+                  <div class="flex-xs aut">
+                    <p>BY</p>
+                    <a href="#">AUTHOR'S NAME</a>
+                </div>
+              </li>
+              <li class="flex-xs pt-3">
+                <div class="headshot">
+                  <a href="#">
+                  <img class="rounded-circle" src="Assets/Media/default2.png" alt="person3"></a>
+                </div>
+                <div class="info">
+                  <a href="#">Some Longer Text with Updated Info at All Times</a>
+                  <div class="flex-xs aut">
+                    <p>BY</p>
+                    <a href="#">AUTHOR'S NAME</a>
+                </div>
+              </li>
+              <li class="flex-xs pt-3">
+                  <div class="headshot">
+                    <a href="#">
+                    <img class="rounded-circle" src="Assets/Media/default2.png" alt="person4"></a>
+                  </div>
+                  <div class="info">
+                    <a href="#">Some Longer Text with Updated Info at All Times</a>
+                    <div class="flex-xs aut">
+                      <p>BY</p>
+                      <a href="#">AUTHOR'S NAME</a>
+                    </div>
+                </li>
+              <li class="flex-xs pt-3">
+                <div class="headshot">
+                  <a href="#">
+                  <img class="rounded-circle" src="Assets/Media/default2.png" alt="person5"></a>
+                </div>
+                <div class="info">
+                  <a href="#">Some Longer Text with Updated Info at All Times</a>
+                  <div class="flex-xs aut">
+                    <p>BY</p>
+                    <a href="#">AUTHOR'S NAME</a>
+                </div>
+              </li>
+              <li class="flex-xs">
+                <div class="headshot">
+                  <a href="#">
+                  <img class="rounded-circle" src="Assets/Media/default2.png" alt="person6"></a>
+                </div>
+                <div class="info">
+                  <a href="#">Some Longer Text with Updated Info at All Times</a>
+                  <div class="flex-xs aut">
+                     <p>BY</p>
+                    <a href="#">AUTHOR'S NAME</a>
+                  </div>
+                </div>
+              </li>
+            </ul>
         </div>
       </div>
-    </div><!--end of main-container-->
-
+    </div><!--end of container-->  
+  </div>
+      
+    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
