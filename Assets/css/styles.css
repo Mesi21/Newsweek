@@ -62,10 +62,10 @@ img{
 .text-left.header-item{
   padding: 40px 20px 0px 20px;
 }
-.container{
+.container-fluid{
   margin-top: 15px;
 }
-.container p{
+.container-fluid p{
   color: black;
 }
 .text
@@ -97,8 +97,6 @@ ul.right-bar-ul{
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 10px;
-  border-bottom: 0.5px solid rgb(184, 181, 181);
 }
 .right-bar-ul img{
   width: 60px;
@@ -132,4 +130,32 @@ ul.right-bar-ul{
 }
 .par-mid{
   font-weight: 400;
+}
+.d-flex.flex-row.align-items-center img{
+  width: 40%; 
+}
+.d-flex.flex-row.align-items-center p{
+  width:60%;
+}
+.news.d-flex.flex-row.align-items-flex-start.mt-3.text-wrap img{
+  width: 50%;
+  height:80%;
+}
+#icon{
+  width: 29px;
+  height: 28px;
+  background-color: #f72210;
+}
+.card-body i{
+  color: white;
+}
+.btn.btn-secondary.text-uppercase.font-weight-bold.rounded-0{
+  width: 160px;
+  height: 35px;
+  padding-top: 0px;
+}
+.card.mt-3{
+  font-size: 13px;
+  background-color: #f4f5f6;
+  min-width:90%;
 }
