@@ -16,6 +16,9 @@ body{
 img{
   width: 100%;
 }
+p{
+  color: black;
+}
 .page-header{
   background-color: #f72210;
   display: flex;
@@ -64,6 +67,7 @@ img{
 }
 .container-fluid{
   margin-top: 15px;
+  height: 100%;
 }
 .container-fluid p{
   color: black;
@@ -131,13 +135,15 @@ ul.right-bar-ul{
 .par-mid{
   font-weight: 400;
 }
-.d-flex.flex-row.align-items-center img{
-  width: 40%; 
-}
-.d-flex.flex-row.align-items-center p{
-  width:60%;
-}
+
 .news.d-flex.flex-row.align-items-flex-start.mt-3.text-wrap img{
+  width: 40%;
+  height:100%;
+}
+.news.d-flex.flex-row.align-items-flex-start.mt-3.text-wrap p{
+  font-weight: 400;
+}
+.stories.d-flex.flex-row.align-items-flex-start.mt-3 img{
   width: 50%;
   height:80%;
 }
@@ -158,4 +164,65 @@ ul.right-bar-ul{
   font-size: 13px;
   background-color: #f4f5f6;
   min-width:90%;
+}
+.btn.btn-secondary.btn-lg.btn-block.rounded-0.mb-5{
+  background-color: #f4f5f6;
+  color: #000;
+  border: 0px;
+}
+.btn.btn-secondary.btn-lg.btn-block.rounded-0.mb-5:hover{
+  background-color: rgb(180, 176, 176);
+}
+.fas.fa-chevron-right.pl-2.main{
+  color: black;
+}
+.news-second img{
+  height: 350px;
+  width: 100%;
+}
+.col-sm-4.col-md-4.second img{
+  height: 300px;
+}
+.col{
+  height:400px;
+}
+.col img{
+  height: 50%;
+}
+.col.third img{
+  height: 50%;
+}
+.col.third p{
+  font-weight: 400;
+}
+.img-fluid.fifth{
+  height: 300px;
+}
+.img-fluid.fifth-r{
+  height: 100px;
+  width: 40%;
+}
+.card-text p{
+  color: #000;
+}
+.btn.btn-red{
+  color: #fff;
+  background-color: #f72210;
+  font-weight: bold;
+}
+.card-body.subscribe{
+  background-color: #f4f5f6;
+}
+#cardhead{
+  background-color: #fff;
+  color: #f72210;
+}
+.block-title h4{
+  color:#f72210;
+}
+.col-sm-8.col-lg-8.d-flex.flex-row.footer p{
+  font-size: 12px;
+}
+.col-sm-4.col-lg-4.d-flex.flex-row.footer p{
+  font-size: 12px;
 }
