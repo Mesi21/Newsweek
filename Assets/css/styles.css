@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-  font-family: 'Alfa Slab One', cursive;
+  font-family: "Roboto-condensed", sans-serif;
   width: 100%;
   background-color: #f4f5f6;
 }
@@ -65,6 +65,18 @@ p{
 .text-left.header-item{
   padding: 40px 20px 0px 20px;
 }
+.news h3{
+  color: black;
+}
+.news a{
+  text-decoration-color: #f72210;
+}
+.col-sm-5.col-md-5.mid-col a{
+  text-decoration-color: #f72210;
+}
+.col-sm-5.col-md-5.mid-col h3{
+  color: black;
+}
 .container-fluid{
   margin-top: 15px;
   height: 100%;
@@ -111,6 +123,9 @@ ul.right-bar-ul{
   color: black;
   font-weight: bold;
 }
+.info a:hover{
+  color: #f72210;
+}
 .info{
   padding: 0px 5px 0px 15px;
   line-height: 1.4em;
@@ -129,13 +144,33 @@ ul.right-bar-ul{
 #abs{
   width: 100%;
 }
-.middle{
-  font-family: "Roboto-condensed", sans-serif;
+.align-top p{
+  font-size: 16px;
+}
+.align-top a:hover{
+  text-decoration-color: #f72210;
 }
 .par-mid{
   font-weight: 400;
 }
-
+.col-sm-4.col-md-4.mid-col a{
+  color: black;
+  font-size: 24px;
+}
+.col-sm-4.col-md-4.mid-col a:hover{
+  text-decoration-color: #f72210;
+}
+.red-links p:hover{
+  color: #f72210;
+}
+.col.titles h3{
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+.col.titles a:hover{
+  text-decoration-color: #f72210;
+}
 .news.d-flex.flex-row.align-items-flex-start.mt-3.text-wrap img{
   width: 40%;
   height:100%;
@@ -151,6 +186,12 @@ ul.right-bar-ul{
   width: 29px;
   height: 28px;
   background-color: #f72210;
+}
+.news-second h3{
+  color: black;
+}
+.news-second a:hover{
+  text-decoration-color: #f72210;
 }
 .card-body i{
   color: white;
@@ -182,6 +223,12 @@ ul.right-bar-ul{
 }
 .col-sm-4.col-md-4.second img{
   height: 300px;
+}
+.col.third h3{
+  color: black;
+}
+.col.third a:hover{
+  text-decoration-color: #f72210;
 }
 .col{
   height:400px;
@@ -223,6 +270,24 @@ ul.right-bar-ul{
 .col-sm-8.col-lg-8.d-flex.flex-row.footer p{
   font-size: 12px;
 }
-.col-sm-4.col-lg-4.d-flex.flex-row.footer p{
+.col-sm-4.col-lg-4.d-flex.flex-row.footer a{
   font-size: 12px;
+}
+.logo-red{
+  color:#f72210;
+}
+.col.other h3{
+  color: black;
+}
+.col.other a:hover{
+  text-decoration-color: #f72210;
+}
+#media i:hover{
+  color: blue;
+}
+.list-inline a{
+  font-size: small;
+}
+.list-inline a:hover{
+  color: black;
 }
