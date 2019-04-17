@@ -11,7 +11,6 @@
     <link rel="stylesheet" type="text/css" href="Assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="Assets/css/styles.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <title>Newsweek</title>
   </head>
   <body>
   <div class="main-container"> 
@@ -19,14 +18,12 @@
       <div class="row second">
         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 text-left header-item mt-5">
           <p id="date">Wed, Apr 10, 2019</p>
-          <img src="Assets/Media/logo.png" class="img-fluid max-width: 100% mt-3 mb-3" alt="logo" id="logo-big">
         </div>
         <div class="col-lg-6 col-md-6 col-sm-0 col-xs-0 text-center">
           <img src="Assets/Media/logo.png" class="img-fluid max-width: 100% mt-3 mb-3" alt="logo" id="logo">
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 text-right header-item mt-5">
           <p>SIGN IN  <button>SUBSCRIBE <i class="fas fa-chevron-right"></i></button></p>
-          <i class="fas fa-bars"></i>
         </div>
       </div><!--end of page-header row-->
       <div class="collapse navbar-collapse">
@@ -48,6 +45,14 @@
         </ul>
       </div><!--end of navbar-->
     </div>
+    <div class="page-header-small"><!--start of small sized nav-bar-->
+      <div class="row second small">  
+        <div class="header-item d-flex flex-row text-right">
+          <img src="Assets/Media/logo.png" class="img-fluid" alt="logo">
+          <p>SIGN IN  <button>SUBSCRIBE <i class="fas fa-chevron-right"></i></button><i class="fas fa-bars"></i></p>
+        </div>
+      </div><!--end of row second small-->
+    </div><!--end of page header small-->
     <div class="container-fluid">
       <div class="row">
         <div class="col-sm-3 col-md-3 left-col">
@@ -159,7 +164,7 @@
         <div class="col-sm-4 col-md-4 right-col">
           <div class="block-title"><h2 class="text-muted ">OPINION</h2></div>
           <ul class="right-bar-ul">
-            <li class="flex-xs">
+            <li class="flex-xs border-bottom">
               <div class="headshot">
                 <a href="https://www.newsweek.com/notre-dame-fire-rebuilt-damage-authentic-wonderful-1397657">
                 <img class="rounded-circle img-fluid max-width:100" src="Assets/Media/default2.png" alt="person1"></a>
@@ -172,8 +177,7 @@
                 </div>
               </div>
             </li>
-            <hr>
-            <li class="flex-xs pt-3">
+            <li class="flex-xs pt-3 border-bottom">
               <div class="headshot">
                 <a href="#">
                 <img class="rounded-circle img-fluid max-width:100" src="Assets/Media/default2.png" alt="person2"></a>
@@ -186,8 +190,7 @@
                 </div>
               </div>
             </li>
-            <hr>
-            <li class="flex-xs pt-3">
+            <li class="flex-xs pt-3 border-bottom">
               <div class="headshot">
                 <a href="#">
                 <img class="rounded-circle img-fluid max-width:100" src="Assets/Media/default2.png" alt="person3"></a>
@@ -200,8 +203,7 @@
                 </div>
               </div>
             </li>
-            <hr>
-            <li class="flex-xs pt-3">
+            <li class="flex-xs pt-3 border-bottom">
                 <div class="headshot">
                   <a href="#">
                   <img class="rounded-circle img-fluid max-width:100" src="Assets/Media/default2.png" alt="person4"></a>
@@ -214,8 +216,7 @@
                   </div>
                 </div>
               </li>
-              <hr>
-            <li class="flex-xs pt-3">
+            <li class="flex-xs pt-3 border-bottom">
               <div class="headshot">
                 <a href="#">
                 <img class="rounded-circle img-fluid max-width:100" src="Assets/Media/default2.png" alt="person5"></a>
@@ -228,8 +229,7 @@
                 </div>
               </div>
             </li>
-            <hr>
-            <li class="flex-xs">
+            <li class="flex-xs pt-3">
               <div class="headshot">
                 <a href="#">
                 <img class="rounded-circle img-fluid max-width:100" src="Assets/Media/default2.png" alt="person6"></a>
@@ -287,7 +287,7 @@
           <div class="card mt-3">
             <div class="card-body">
               <div class="d-flex flex-row align-items-center">
-                <img src="https://s.newsweek.com/sites/www.newsweek.com/themes/newsweek/images/logo-n1.svg" class="mb-2 mr-2" alt="logo-n" id="icon">
+                <img src="https://s.newsweek.com/sites/www.newsweek.com/themes/newsweek/images/logo-n1.svg" class="icon mb-2 mr-2" alt="logo-n">
                 <h5 class="card-title text-uppercase font-weight-bold">Sign up for our newsletter</h5>
               </div>
               <a href="#" class="btn btn-secondary text-uppercase font-weight-bold rounded-0">Sign up<i class="fas fa-chevron-right pl-2"></i></a>
@@ -299,10 +299,10 @@
     </div><!--end of container-->  
     <div class="container-fluid"><!--start of second container-->
       <div class="row">
-        <div class="col-sm-3 col-md-3 left-col"><!--start of lef-col-->
+        <div class="col-sm-3 col-md-3 left-col"><!--start of left-col-->
           <div class="news-second">
             <img src="Assets/Media/md.jpg" class="img-fluid max-width:100" alt="rock" >
-            <button type="button" class="btn btn-secondary btn-lg btn-block rounded-0 mb-5 pb-0"><p class="font-weight-bold text-uppercase">See all features<i class="fas fa-chevron-right pl-2 main"></i></p></button>
+            <button type="button" class="btn btn-secondary btn-lg btn-block font-weight-bold text-uppercase rounded-0 mb-5 pb-2">See all features<i class="fas fa-chevron-right pl-2 main"></i></button>
           </div>
           <div class="news-second">
             <img src="Assets/Media/rock2.jpg" class="img-fluid max-width:100 mt-5" alt="rock">
@@ -313,7 +313,7 @@
           <div class="col-sm-12 col-md-12">
             <div class="d-flex flex-row justify-content-center mt-2">
               <div class="d-flex flex-row align-items-center">
-                <img src="https://s.newsweek.com/sites/www.newsweek.com/themes/newsweek/images/logo-n1.svg" class="mb-2 mr-2" alt="logo-n" id="icon">
+                <img src="https://s.newsweek.com/sites/www.newsweek.com/themes/newsweek/images/logo-n1.svg" class="icon mb-2 mr-2" alt="logo-n">
                 <h5 class="card-title text-uppercase font-weight-bold mt-3">In the magazine</h5>
               </div>
             </div>
@@ -330,7 +330,6 @@
                 <img src="Assets/Media/rock2.jpg" class="img-fluid max-width: 100%  mt-2" alt="rock" >
                 <a href="#"><h3 class="font-weight-bold"> Second Title and some other text as well</h3></a>    
               </div>
-              <hr>
             </div>
             <div class="col-sm-4 col-md-4 second">
               <div class="col titles">
@@ -342,7 +341,6 @@
                 <img src="Assets/Media/image.jpg" class="img-fluid max-width: 100%  mt-2" alt="rock" >
                 <a href="#" class="titles"><h3 class="font-weight-bold"> Fourth Title some other text and so on</h3></a>    
               </div>
-              <hr>
             </div>
             <div class="col-sm-4 col-md-4 second">
               <div class="col titles">
@@ -354,7 +352,6 @@
                 <img src="Assets/Media/rock2.jpg" class="img-fluid max-width: 100% mt-2" alt="rock" >
                 <a href="#" class="titles"><h3 class="font-weight-bold"> Sixth Title</h3></a>    
               </div>
-              <hr>
             </div>
           </div>
         </div><!--end of right-col-->
@@ -362,7 +359,7 @@
       <div class="container-fluid"><!--start of third section-->
         <div class="d-flex flex-row justify-content-center mt-2">
           <div class="d-flex flex-row align-items-center">
-            <img src="https://s.newsweek.com/sites/www.newsweek.com/themes/newsweek/images/logo-n1.svg" class="mb-2 mr-2" alt="logo-n" id="icon">
+            <img src="https://s.newsweek.com/sites/www.newsweek.com/themes/newsweek/images/logo-n1.svg" class="icon mb-2 mr-2" alt="logo-n">
             <h5 class="card-title text-uppercase font-weight-bold mt-3">Editor's pick</h5>
           </div>
         </div>
@@ -421,7 +418,7 @@
       <div class="container-fluid"><!--start of container fluid-->
         <div class="d-flex flex-row justify-content-center mt-2"><!--start of fourth section-->
           <div class="d-flex flex-row align-items-center">
-            <img src="https://s.newsweek.com/sites/www.newsweek.com/themes/newsweek/images/logo-n1.svg" class="mb-2 mr-2" alt="logo-n" id="icon">
+            <img src="https://s.newsweek.com/sites/www.newsweek.com/themes/newsweek/images/logo-n1.svg" class="icon mb-2 mr-2" alt="logo-n">
             <h5 class="card-title text-uppercase font-weight-bold mt-3">Featured slideshows</h5>
           </div>
         </div>
@@ -644,7 +641,7 @@
                       <div class="card-body subscribe text-center">
                         <div class="d-flex flex-row">
                           <div class="container-fluid">
-                            <img src="https://s.newsweek.com/sites/www.newsweek.com/themes/newsweek/images/package1.png">
+                            <img src="https://s.newsweek.com/sites/www.newsweek.com/themes/newsweek/images/package1.png" alt="package">
                           </div>
                           <div class="container-fluid">
                             <h5 class="card-title">Digital only</h5>
@@ -657,7 +654,7 @@
                         <hr>
                         <div class="d-flex flex-row mb-3">
                           <div class="container-fluid">
-                            <img src="https://s.newsweek.com/sites/www.newsweek.com/themes/newsweek/images/package1.png">
+                            <img src="https://s.newsweek.com/sites/www.newsweek.com/themes/newsweek/images/package1.png" alt="package">
                           </div>
                           <div class="container-fluid">
                             <h5 class="card-title">Print & Digital</h5>
@@ -744,60 +741,6 @@
             </div>
           </div>
         </div><!--end of container fluid-->
-      </div>
-    </div>
-    <style>
-     @media (max-width: 576px){ 
-      .page-header{
-        height: 70px;
-      }
-      .page-header p{
-        font-size: 0.7rem;
-      }
-      .row.second{
-        display: flex;
-        flex-direction: row;
-      }
-      .collapse.navbar-collapse{
-        display:none;
-      }
-      #logo-big{
-          display: inline;
-          width: 100px;
-          margin: 0px;
-          padding: 0px;
-          height: 100%;
-          }
-      #date{
-        display: none;
-        }
-      #logo{
-        display: none;
-        width: 1%;
-        }
-      }
-  
-      @media (min-width: 576px) and (max-width: 992px) { 
-        #logo-big{
-          display: inline;
-          }
-        #date{
-          display: none;
-          }
-        #logo{
-          display: none;
-          }
-      }
-     
-      @media (min-width: 992px){ 
-        .media-navbar{
-            display: none;
-          } 
-        #logo-big{
-          display: none;
-          }
-        }
-    </style>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

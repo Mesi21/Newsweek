@@ -84,9 +84,12 @@ p{
 .container-fluid p{
   color: black;
 }
-.text
 #rocks{
   width: 100%;
+}
+body > div > div:nth-child(4) > div.row > div.col-sm-3.col-md-3.left-col > div:nth-child(1) > button{
+  font-size: 12px;
+  width:100%;
 }
 .text-muted{
   font-size: 18px;
@@ -182,7 +185,7 @@ ul.right-bar-ul{
   width: 50%;
   height:80%;
 }
-#icon{
+img.icon.mb-2.mr-2{
   width: 29px;
   height: 28px;
   background-color: #f72210;
@@ -291,3 +294,80 @@ ul.right-bar-ul{
 .list-inline a:hover{
   color: black;
 }
+@media (max-width: 576px){ 
+  .main-container{
+    width: 100%;
+  }
+  .page-header{
+    display:none;
+    height: 0px; 
+    width: 0px;
+   }
+  body > div > div.page-header-small{
+    margin:0px;
+    padding: 0px;
+    margin: auto;
+  }
+  body > div > div.page-header-small > div.row.second.small{
+    background-color: #f72210;
+    width: 100%;
+  }
+  body > div > div.page-header-small > div > div > img{
+      display: inline;
+      width:50%;
+      height: 70%;
+      margin-right: 8px;
+   }
+  body > div > div.page-header-small > div > div > p > i{
+     color: white;
+   }
+  }
+
+  @media (min-width: 576px) and (max-width: 992px) { 
+    .body{
+      width: 100%;
+      margin: 0px;
+      padding: 0px;
+    }
+    .main-container{
+      width: 100%;
+      margin: 0px;
+      padding: 0px;
+    }
+    .page-header{
+      display:none;
+      height: 0px; 
+      width: 0px;
+     }
+    body > div > div.page-header-small{
+      margin:0px;
+      padding: 0px;
+      width: 100%;
+    }
+    
+    body > div > div.page-header-small > div.row.second.small{
+      background-color: #f72210;
+      width: 100%;
+    }
+    body > div > div.page-header-small > div > div > img{
+        display: inline;
+        width:50%;
+        height: 70%;
+        margin-right:150px;
+     }
+    body > div > div.page-header-small > div > div > p > i{
+       color: white;
+     }
+  }
+ 
+  @media (min-width: 992px){ 
+  .page-header-small{
+        display: none;
+      } 
+  .collapse.navbar-collapse{
+    display: inline;
+  }
+    #logo-big{
+      display: none;
+      }
+    }
