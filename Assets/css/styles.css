@@ -65,24 +65,18 @@ p{
 .text-left.header-item{
   padding: 40px 20px 0px 20px;
 }
-.news h3{
-  color: black;
-}
 .news a{
   text-decoration-color: #f72210;
 }
 .col-sm-5.col-md-5.mid-col a{
   text-decoration-color: #f72210;
 }
-.col-sm-5.col-md-5.mid-col h3{
-  color: black;
-}
 .container-fluid{
   margin-top: 15px;
   height: 100%;
 }
-.container-fluid p{
-  color: black;
+.text-body.font-weight-bold.red{
+  color: #f72210;
 }
 #rocks{
   width: 100%;
@@ -102,9 +96,6 @@ body > div > div:nth-child(4) > div.row > div.col-sm-3.col-md-3.left-col > div:n
   line-height: 24px;
   color: #000;
 }
-.news a{
-  text-decoration-color: #f72210;
-}
 .news p{
   font-weight: 400;
 }
@@ -123,8 +114,10 @@ ul.right-bar-ul{
 }
 .right-bar-ul a{
   text-decoration: none;
-  color: black;
   font-weight: bold;
+}
+.black{
+  color: black;
 }
 .info a:hover{
   color: #f72210;
@@ -147,12 +140,7 @@ ul.right-bar-ul{
 #abs{
   width: 100%;
 }
-.align-top p{
-  font-size: 16px;
-}
-.align-top a:hover{
-  text-decoration-color: #f72210;
-}
+
 .par-mid{
   font-weight: 400;
 }
@@ -160,11 +148,12 @@ ul.right-bar-ul{
   color: black;
   font-size: 24px;
 }
-.col-sm-4.col-md-4.mid-col a:hover{
-  text-decoration-color: #f72210;
+.red-links p{
+  color: black;
 }
 .red-links p:hover{
   color: #f72210;
+  text-decoration-style: none;
 }
 .col.titles h3{
   text-decoration: none;
@@ -357,6 +346,9 @@ img.icon.mb-2.mr-2{
      }
     body > div > div.page-header-small > div > div > p > i{
        color: white;
+     }
+     #media{
+       margin-right: 20px;
      }
   }
  
