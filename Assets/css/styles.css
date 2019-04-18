@@ -153,7 +153,7 @@ ul.right-bar-ul{
 }
 .red-links p:hover{
   color: #f72210;
-  text-decoration-style: none;
+  text-decoration: none;
 }
 .col.titles h3{
   text-decoration: none;
@@ -310,6 +310,7 @@ img.icon.mb-2.mr-2{
   body > div > div.page-header-small > div > div > p > i{
      color: white;
    }
+   
   }
 
   @media (min-width: 576px) and (max-width: 992px) { 
@@ -350,6 +351,9 @@ img.icon.mb-2.mr-2{
      #media{
        margin-right: 20px;
      }
+     .col.third{
+      height: 200px;
+      }
   }
  
   @media (min-width: 992px){ 
@@ -362,4 +366,7 @@ img.icon.mb-2.mr-2{
     #logo-big{
       display: none;
       }
+  .col.third{
+    height: 530px;
+    }
     }
