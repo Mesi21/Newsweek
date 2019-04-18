@@ -1,0 +1,372 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+  font-family: "Roboto-condensed", sans-serif;
+  width: 100%;
+  background-color: #f4f5f6;
+}
+.main-container{
+  width: 85%;
+  background-color: #fff;
+  margin: auto;
+}
+img{
+  width: 100%;
+}
+p{
+  color: black;
+}
+.page-header{
+  background-color: #f72210;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.row p{
+  font-weight: 900;
+  color: #fff;
+}
+.nav{
+  width: 100%;
+  background-color: #fff;
+  color: black;
+  font-weight: bold;
+}
+.nav a{
+  text-decoration: none;
+  color: black;
+}
+.nav-pills{
+  border-bottom: 1px solid #aaa;
+}
+.row i{
+  color: #aaa;
+  padding-top: 10px;
+}
+.row input{
+  border: 0px;
+}
+.text-right.header-item {
+  padding: 40px 20px 0px 20px;
+}
+.text-right.header-item button{
+  color: red;
+  font-weight: bold;
+  border: 0px;
+  background-color: #fff;
+}
+.text-right.header-item i{
+  color: red;
+}
+.text-left.header-item{
+  padding: 40px 20px 0px 20px;
+}
+.news a{
+  text-decoration-color: #f72210;
+}
+.col-sm-5.col-md-5.mid-col a{
+  text-decoration-color: #f72210;
+}
+.container-fluid{
+  margin-top: 15px;
+  height: 100%;
+}
+.text-body.font-weight-bold.red{
+  color: #f72210;
+}
+#rocks{
+  width: 100%;
+}
+body > div > div:nth-child(4) > div.row > div.col-sm-3.col-md-3.left-col > div:nth-child(1) > button{
+  font-size: 12px;
+  width:100%;
+}
+.text-muted{
+  font-size: 18px;
+  font-weight: bold;
+}
+.news h3{
+  margin-top: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 24px;
+  color: #000;
+}
+.news p{
+  font-weight: 400;
+}
+ul.right-bar-ul{
+  padding-left: 0px;
+}
+.right-bar-ul li{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.right-bar-ul img{
+  width: 60px;
+  height: 60px;
+}
+.right-bar-ul a{
+  text-decoration: none;
+  font-weight: bold;
+}
+.black{
+  color: black;
+}
+.info a:hover{
+  color: #f72210;
+}
+.info{
+  padding: 0px 5px 0px 15px;
+  line-height: 1.4em;
+}
+.aut{
+  display: flex;
+  flex-direction: row;
+}
+.aut p{
+  font-weight: 400;
+  color: #555;
+}
+.aut a{
+  color: #555;
+}
+#abs{
+  width: 100%;
+}
+
+.par-mid{
+  font-weight: 400;
+}
+.col-sm-4.col-md-4.mid-col a{
+  color: black;
+  font-size: 24px;
+}
+.red-links p{
+  color: black;
+}
+.red-links p:hover{
+  color: #f72210;
+  text-decoration: none;
+}
+.col.titles h3{
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+.col.titles a:hover{
+  text-decoration-color: #f72210;
+}
+.news.d-flex.flex-row.align-items-flex-start.mt-3.text-wrap img{
+  width: 40%;
+  height:100%;
+}
+.news.d-flex.flex-row.align-items-flex-start.mt-3.text-wrap p{
+  font-weight: 400;
+}
+.stories.d-flex.flex-row.align-items-flex-start.mt-3 img{
+  width: 50%;
+  height:80%;
+}
+img.icon.mb-2.mr-2{
+  width: 29px;
+  height: 28px;
+  background-color: #f72210;
+}
+.news-second h3{
+  color: black;
+}
+.news-second a:hover{
+  text-decoration-color: #f72210;
+}
+.card-body i{
+  color: white;
+}
+.btn.btn-secondary.text-uppercase.font-weight-bold.rounded-0{
+  width: 160px;
+  height: 35px;
+  padding-top: 0px;
+}
+.card.mt-3{
+  font-size: 13px;
+  background-color: #f4f5f6;
+  min-width:90%;
+}
+.btn.btn-secondary.btn-lg.btn-block.rounded-0.mb-5{
+  background-color: #f4f5f6;
+  color: #000;
+  border: 0px;
+}
+.btn.btn-secondary.btn-lg.btn-block.rounded-0.mb-5:hover{
+  background-color: rgb(180, 176, 176);
+}
+.fas.fa-chevron-right.pl-2.main{
+  color: black;
+}
+.news-second img{
+  height: 350px;
+  width: 100%;
+}
+.col-sm-4.col-md-4.second img{
+  height: 300px;
+}
+.col.third h3{
+  color: black;
+}
+.col.third a:hover{
+  text-decoration-color: #f72210;
+}
+.col{
+  height:400px;
+}
+.col img{
+  height: 50%;
+}
+.col.third img{
+  height: 50%;
+}
+.col.third p{
+  font-weight: 400;
+}
+.img-fluid.fifth{
+  height: 300px;
+}
+.img-fluid.fifth-r{
+  height: 100px;
+  width: 40%;
+}
+.card-text p{
+  color: #000;
+}
+.btn.btn-red{
+  color: #fff;
+  background-color: #f72210;
+  font-weight: bold;
+}
+.card-body.subscribe{
+  background-color: #f4f5f6;
+}
+#cardhead{
+  background-color: #fff;
+  color: #f72210;
+}
+.block-title h4{
+  color:#f72210;
+}
+.col-sm-8.col-lg-8.d-flex.flex-row.footer p{
+  font-size: 12px;
+}
+.col-sm-4.col-lg-4.d-flex.flex-row.footer a{
+  font-size: 12px;
+}
+.logo-red{
+  color:#f72210;
+}
+.col.other h3{
+  color: black;
+}
+.col.other a:hover{
+  text-decoration-color: #f72210;
+}
+#media i:hover{
+  color: blue;
+}
+.list-inline a{
+  font-size: small;
+}
+.list-inline a:hover{
+  color: black;
+}
+@media (max-width: 576px){ 
+  .main-container{
+    width: 100%;
+  }
+  .page-header{
+    display:none;
+    height: 0px; 
+    width: 0px;
+   }
+  body > div > div.page-header-small{
+    margin:0px;
+    padding: 0px;
+    margin: auto;
+  }
+  body > div > div.page-header-small > div.row.second.small{
+    background-color: #f72210;
+    width: 100%;
+  }
+  body > div > div.page-header-small > div > div > img{
+      display: inline;
+      width:50%;
+      height: 70%;
+      margin-right: 8px;
+   }
+  body > div > div.page-header-small > div > div > p > i{
+     color: white;
+   }
+   
+  }
+
+  @media (min-width: 576px) and (max-width: 992px) { 
+    .body{
+      width: 100%;
+      margin: 0px;
+      padding: 0px;
+    }
+    .main-container{
+      width: 100%;
+      margin: 0px;
+      padding: 0px;
+    }
+    .page-header{
+      display:none;
+      height: 0px; 
+      width: 0px;
+     }
+    body > div > div.page-header-small{
+      margin:0px;
+      padding: 0px;
+      width: 100%;
+    }
+    
+    body > div > div.page-header-small > div.row.second.small{
+      background-color: #f72210;
+      width: 100%;
+    }
+    body > div > div.page-header-small > div > div > img{
+        display: inline;
+        width:50%;
+        height: 70%;
+        margin-right:150px;
+     }
+    body > div > div.page-header-small > div > div > p > i{
+       color: white;
+     }
+     #media{
+       margin-right: 20px;
+     }
+     .col.third{
+      height: 200px;
+      }
+  }
+ 
+  @media (min-width: 992px){ 
+  .page-header-small{
+        display: none;
+      } 
+  .collapse.navbar-collapse{
+    display: inline;
+  }
+    #logo-big{
+      display: none;
+      }
+  .col.third{
+    height: 530px;
+    }
+    }
